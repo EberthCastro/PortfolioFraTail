@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { navLinks } from "../Data";
 import { HiMenuAlt3 } from "react-icons/hi";
 import NavLinks from "./NavLinks";
-const Navbar = () => {
+
+
+function Navbar () {
   const [toggle, setToggle] = useState(false);
   const [isTop, setIsTop] = useState(false);
   useEffect(() => {
@@ -18,7 +20,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-2">
         <div className="flex items-center gap-2">
-          <div className="rounded-full w-8 h-8 bg-blue flex items-center justify-center text-white font-bold">
+          <div className="rounded-full w-8 h-8 bg-black flex items-center justify-center text-white font-bold">
             E
           </div>
           <p className="text-xl">
@@ -29,7 +31,7 @@ const Navbar = () => {
           {navLinks.map((navLink) => {
             return (
               <div key={navLink.id}>
-                <a href={`#${navLink.href}`} className="text-[0.95rem]">
+                <a href={`#${navLink.href}`} className="text-[0.95rem] hover:text-[1.05rem]">
                   {navLink.text}
                 </a>
               </div>
@@ -46,4 +48,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar

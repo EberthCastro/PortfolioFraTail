@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -7,21 +8,23 @@ import Projects from "./components/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
+import RouteAPi from "./routes/RouteAPi";
 
 function App() {
   return (
-    <div className="font-Poppins bg-ghostWhite">
+      <BrowserRouter>
+    {/* <div className="font-Poppins bg-ghostWhite">
       <Navbar />
       <Home />
-      <Projects />
-      {/* <Services /> */}
-      {/* <Blog /> */}
+      <Projects />      
       <Testimonials />
       <Contact />
       <Footer />
-      <ScrollToTop />
-    </div>
-  );
+      <ScrollToTop /> */}
+      <RouteAPi/>
+    {/* </div> */}
+      </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

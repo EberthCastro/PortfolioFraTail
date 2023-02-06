@@ -1,7 +1,9 @@
 import React from "react";
 import hero from "../assets/hero.jpg";
 import { motion } from "framer-motion";
-const Home = () => {
+
+
+function Home () {
   return (
     <div className="section flex justify-center items-center" id="home">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
@@ -28,15 +30,15 @@ const Home = () => {
             tempora cumque accusantium incidunt.
           </p>
           <div className="flex mt-4 gap-4">
-            <a
+            {/* <a
               href=""
-              className="py-2 px-4 border-[2px] border-solid border-blue text-[0.9rem] rounded-[2.2rem] shadow-md"
+              className="py-2 px-4 border-[2px] border-solid border-black text-[0.9rem] rounded-[2.2rem] shadow-md"
             >
               Download Cv
-            </a>
+            </a> */}
             <a
               href="#contact"
-              className="py-2 px-4 border-[2px] border-solid border-grey text-[0.9rem] rounded-[2.2rem] shadow-md"
+              className="py-2 px-4 border-[2px] border-solid border-grey text-[0.9rem] rounded-[2.2rem] shadow-md hover:bg-black hover:text-ghostWhite"
             >
               Contact
             </a>
@@ -47,4 +49,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home

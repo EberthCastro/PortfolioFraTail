@@ -36,16 +36,6 @@ export const navLinks = [
     text: "Projects",
     href: "projects",
   },
-//   {
-//     id: 3,
-//     text: "Services",
-//     href: "services",
-//   },
-//   {
-//     id: 4,
-//     text: "Blog",
-//     href: "blog",
-//   },
   {
     id: 5,
     text: "Testimonials",
@@ -77,7 +67,7 @@ export const services = [
   {
     id: 4,
     icon: <TbSpeakerphone />,
-    title: "Marketing",
+    title: "Scrum Methodology",
   },
 ];
 export const serviceFinishes = [
@@ -109,8 +99,7 @@ export const serviceFinishes = [
 export const btns = [
   { id: 1, name: "All", value: "all" },
   { id: 2, name: "Front", value: "front" },
-  { id: 3, name: "Back", value: "back" },
-  // { id: 4, name: "Blockchain", value: "blockchain" },
+  { id: 3, name: "Back", value: "back" },  
 ];
 
 export const projects = [
@@ -155,22 +144,22 @@ export const blogs = [
   {
     id: 1,
     image: blog1,
-    title: "What Skills Do You Need for Marketing in 2023?",
+    title: "What Skills Do You Need for Front-end development in 2023?",
   },
   {
     id: 2,
     image: blog2,
-    title: "What is Web Design? A Comprehensive Guide",
+    title: "What is React Js? A Comprehensive Guide",
   },
   {
     id: 3,
     image: blog3,
-    title: "100 Best Web Design Blogs You Must Read in 2023",
+    title: "Fundaments of  PHP 8",
   },
   {
     id: 4,
     image: blog4,
-    title: "How to Learn Web Design at Home",
+    title: "Introducing to Laravel 9. Creating an Api",
   },
 ];
 
@@ -178,27 +167,31 @@ export const testimonials = [
   {
     id: 1,
     image: testimonial1,
-    name: "Billy Adams",
-    business: "Rolling Thunder",
+    name: "Andres Esteban",
+    business: "Factoria F5",
   },
   {
     id: 2,
     image: testimonial2,
-    name: "Gary Jhonson",
+    name: "Gary Lima",
     business: "Car Accessories",
   },
   {
     id: 3,
     image: testimonial3,
-    name: "Venissa",
-    business: "Fashin Shop",
+    name: "Rocio Cejudo",
+    business: "Factoria F5",
   },
 ];
 
 export const contacts = [
   {
     id: 1,
-    icon: <TfiHeadphoneAlt />,
+    icon: 
+    <a href="#login">
+
+   
+    <TfiHeadphoneAlt /> </a>,
     text: "+34 629-564-070",
   },
   {

@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { btns } from "../Data";
 import { projects } from "../Data";
 import { motion, AnimatePresence } from "framer-motion";
-const Projects = () => {
+
+
+function Projects() {
   const [filterImages, setFilterImages] = useState(null);
   useEffect(() => {
     setFilterImages(projects);
@@ -20,7 +22,7 @@ const Projects = () => {
     <div className="section" id="projects">
       <div className="mb-8">
         <h2 className="text-[1.5rem] font-bold">My Collections</h2>
-        <div className=" w-14 h-[3px] rounded-sm bg-blue"></div>
+        <div className=" w-14 h-[3px] rounded-sm bg-black"></div>
       </div>
       <div className="mt-4 flex flex-wrap gap-8">
         {btns.map((btn) => {
@@ -53,4 +55,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects

@@ -1,6 +1,8 @@
 import React from "react";
 import { services, serviceFinishes } from "../Data";
-const Services = () => {
+
+
+function Services() {
   return (
     <div className="section" id="services">
       <div className="mb-8">
@@ -51,4 +53,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Services

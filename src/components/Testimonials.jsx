@@ -1,7 +1,8 @@
 import React from "react";
 import { testimonials } from "../Data";
 import { motion } from "framer-motion";
-const Testimonials = () => {
+
+function Testimonials() {
   const container = {
     hidden: {
       opacity: 0,
@@ -24,7 +25,7 @@ const Testimonials = () => {
     <div className="section" id="testimonials">
       <div className="mb-8">
         <h2 className="text-[1.5rem] font-bold ">Testimonials</h2>
-        <div className="w-14 h-[3px] bg-blue rounded-sm"></div>
+        <div className="w-14 h-[3px] bg-black rounded-sm"></div>
       </div>
       <motion.div
         variants={container}
@@ -69,7 +70,7 @@ const Testimonials = () => {
         <p className="text-[0.9rem] opacity-80 mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
-        <a href="#contact" className="text-[0.9rem] text-blue">
+        <a href="#contact" className="py-2 px-4 border-[2px] border-solid border-grey text-[0.9rem] rounded-[2.2rem] shadow-md hover:bg-black hover:text-ghostWhite">
           Contact Me
         </a>
       </div>
@@ -77,4 +78,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testimonials

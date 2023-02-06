@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavLinks = ({ href, text, setToggle }) => {
+function NavLinks({ href, text, setToggle }) {
   return (
     <div onClick={(prev) => setToggle(!prev)}>
       <a href={`#${href}`} className="text-xl">
@@ -10,4 +10,4 @@ const NavLinks = ({ href, text, setToggle }) => {
   );
 };
 
-export default NavLinks;
+export default NavLinks
