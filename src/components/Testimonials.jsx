@@ -70,7 +70,7 @@ function Testimonials() {
         <p className="text-[0.9rem] opacity-80 mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
-        <a href="#contact" className="py-2 px-4 border-[2px] border-solid border-grey text-[0.9rem] rounded-[2.2rem] shadow-md hover:bg-black hover:text-ghostWhite">
+        <a href="#contact" className="py-2 px-4 border-[2px] border-solid border-grey text-[0.9rem] rounded-[0.2rem] shadow-md hover:bg-black hover:text-ghostWhite">
           Contact Me
         </a>
       </div>

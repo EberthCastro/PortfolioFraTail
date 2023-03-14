@@ -21,7 +21,7 @@ function Projects() {
   return (
     <div className="section" id="projects">
       <div className="mb-8">
-        <h2 className="text-[1.5rem] font-bold">My Collections</h2>
+        <h2 className="text-[1.5rem] font-bold">My Projects</h2>
         <div className=" w-14 h-[3px] rounded-sm bg-black"></div>
       </div>
       <div className="mt-4 flex flex-wrap gap-8">

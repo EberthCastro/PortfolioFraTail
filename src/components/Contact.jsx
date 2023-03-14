@@ -45,13 +45,13 @@ function Contact () {
               <input
                 type="text"
                 className="outline-none bg-transparent border border-solid border-black p-2 text-[0.9rem]"
-                placeholder="Budget"
+                placeholder="Tech"
               />
             </div>
           </div>
           <div>
             <textarea
-              placeholder="Project Description"
+              placeholder="Description"
               className="outline-none bg-transparent border border-solid border-black resize-none text-[0.9rem] p-2 h-40 w-80"
             ></textarea>
             <div className="mt-2 text-end">
