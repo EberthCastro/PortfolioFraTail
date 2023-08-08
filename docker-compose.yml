@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  api:
+    build: ./api
+    container_name: api_castro
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api:/app
+      - ./app/node_modules
+  PortfolioFraTail:
+    build: ./PortfolioFraTail
+    container_name: PortfolioFraTail_castro
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+
+
+

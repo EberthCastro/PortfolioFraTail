@@ -1,16 +1,11 @@
 import React from "react";
 import { contacts } from "../Data";
 
-function Contact () {
+function Contact() {
   return (
     <div className="container mx-auto mb-7 px-6" id="contact">
       <div className="mb-8">
-        <h2 className="text-[1.5rem] font-bold">
-          <a href="/login">
-          Contact
-
-          </a>
-          </h2>
+        <h2 className="text-[1.5rem] font-bold">Contacts</h2>
         <div className="w-14 h-[3px] rounded-sm bg-black"></div>
       </div>
       <div className="shadow-lg p-4 max-w-[700px] mx-auto">
@@ -64,6 +59,6 @@ function Contact () {
       </div>
     </div>
   );
-};
+}
 
-export default Contact
+export default Contact;

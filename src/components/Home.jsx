@@ -24,7 +24,7 @@ function Home() {
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 1.5 }}
           >
             <div className="text-grey sm:text-[1.25rem] mb-4">
               Junior Full Stack Web Developer

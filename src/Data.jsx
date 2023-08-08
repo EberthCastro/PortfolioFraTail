@@ -48,54 +48,54 @@ export const navLinks = [
   },
 ];
 
-export const services = [
-  {
-    id: 1,
-    icon: <ImPencil />,
-    title: "Copywrite",
-  },
-  {
-    id: 2,
-    icon: <BsShop />,
-    title: "Ecommerce",
-  },
-  {
-    id: 3,
-    icon: <TiDeviceDesktop />,
-    title: "Web Design",
-  },
-  {
-    id: 4,
-    icon: <TbSpeakerphone />,
-    title: "Scrum Methodology",
-  },
-];
-export const serviceFinishes = [
-  {
-    id: 1,
-    icon: <BsHeart />,
-    text: "Happy Clients",
-    amount: 566,
-  },
-  {
-    id: 2,
-    icon: <BsWatch />,
-    text: "Working Hours",
-    amount: 5335,
-  },
-  {
-    id: 3,
-    icon: <BsStar />,
-    text: "Awards Won",
-    amount: 13,
-  },
-  {
-    id: 4,
-    icon: <BiCoffeeTogo />,
-    text: "Coffee Consumed",
-    amount: 1189,
-  },
-];
+// export const services = [
+//   {
+//     id: 1,
+//     icon: <ImPencil />,
+//     title: "Copywrite",
+//   },
+//   {
+//     id: 2,
+//     icon: <BsShop />,
+//     title: "Ecommerce",
+//   },
+//   {
+//     id: 3,
+//     icon: <TiDeviceDesktop />,
+//     title: "Web Design",
+//   },
+//   {
+//     id: 4,
+//     icon: <TbSpeakerphone />,
+//     title: "Scrum Methodology",
+//   },
+// ];
+// export const serviceFinishes = [
+//   {
+//     id: 1,
+//     icon: <BsHeart />,
+//     text: "Happy Clients",
+//     amount: 566,
+//   },
+//   {
+//     id: 2,
+//     icon: <BsWatch />,
+//     text: "Working Hours",
+//     amount: 5335,
+//   },
+//   {
+//     id: 3,
+//     icon: <BsStar />,
+//     text: "Awards Won",
+//     amount: 13,
+//   },
+//   {
+//     id: 4,
+//     icon: <BiCoffeeTogo />,
+//     text: "Coffee Consumed",
+//     amount: 1189,
+//   },
+// ];
 export const btns = [
   { id: 1, name: "All", value: "all" },
   { id: 2, name: "Front", value: "front" },
@@ -140,28 +140,28 @@ export const projects = [
   },
 ];
 
-export const blogs = [
-  {
-    id: 1,
-    image: blog1,
-    title: "What Skills Do You Need for Front-end development in 2023?",
-  },
-  {
-    id: 2,
-    image: blog2,
-    title: "What is React Js? A Comprehensive Guide",
-  },
-  {
-    id: 3,
-    image: blog3,
-    title: "Fundaments of  PHP 8",
-  },
-  {
-    id: 4,
-    image: blog4,
-    title: "Introducing to Laravel 9. Creating an Api",
-  },
-];
+// export const blogs = [
+//   {
+//     id: 1,
+//     image: blog1,
+//     title: "What Skills Do You Need for Front-end development in 2023?",
+//   },
+//   {
+//     id: 2,
+//     image: blog2,
+//     title: "What is React Js? A Comprehensive Guide",
+//   },
+//   {
+//     id: 3,
+//     image: blog3,
+//     title: "Fundaments of  PHP 8",
+//   },
+//   {
+//     id: 4,
+//     image: blog4,
+//     title: "Introducing to Laravel 9. Creating an Api",
+//   },
+// ];
 
 export const testimonials = [
   {

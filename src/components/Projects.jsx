@@ -3,7 +3,6 @@ import { btns } from "../Data";
 import { projects } from "../Data";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 function Projects() {
   const [filterImages, setFilterImages] = useState(null);
   useEffect(() => {
@@ -45,7 +44,11 @@ function Projects() {
                   exit={{ opacity: 0, transition: { duration: 0.3 } }}
                   key={filterImage.id}
                 >
-                  <motion.img src={filterImage.image} alt="" />
+                  <div className="bg-gray-100 backdrop-blur-md">
+                    <div className="rounded-lg p-6 shadow-md bg-white bg-opacity-25">
+                      <motion.img src={filterImage.image} alt="projectImg" className="w-54 h-44" />
+                    </div>
+                  </div>
                 </motion.div>
               );
             })}
@@ -53,6 +56,6 @@ function Projects() {
       </AnimatePresence>
     </div>
   );
-};
+}
 
-export default Projects
+export default Projects;
